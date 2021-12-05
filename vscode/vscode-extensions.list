@@ -1,0 +1,13 @@
+christian-kohler.path-intellisense
+CoenraadS.bracket-pair-colorizer-2
+cyrilletuzi.angular-schematics
+donjayamanne.githistory
+eamodio.gitlens
+esbenp.prettier-vscode
+kamikillerto.vscode-colorize
+mhutchie.git-graph
+pranaygp.vscode-css-peek
+streetsidesoftware.code-spell-checker
+vscode-icons-team.vscode-icons
+
+## cat vscode-extensions.list | xargs -L 1 code --install-extension
