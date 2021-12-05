@@ -1,0 +1,15 @@
+[/]
+control-center=['<Super>F1']
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/']
+help=@as []
+www=['<Super>b']
+
+[custom-keybindings/custom0]
+binding='<Super>t'
+command='terminator'
+name='terminator'
+
+[custom-keybindings/custom1]
+binding='<Super>c'
+command='code'
+name='vs'
