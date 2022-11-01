@@ -68,6 +68,10 @@ mkcd() {
   mkdir $1 && cd $1
 }
 
+gitto() {
+  git add . && gcmsg $1 && ggp
+}
+
 # Theming section  
 autoload -U compinit colors zcalc
 compinit -d
