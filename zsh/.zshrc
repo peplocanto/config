@@ -132,3 +132,10 @@ load-nvmrc() {
 }
 add-zsh-hook chpwd load-nvmrc
 load-nvmrc
+
+# ssh
+keys=( gh_key )
+for i in "${keys[@]}"
+do
+  eval $(keychain --agents ssh --eval "$i" -q)
+done
