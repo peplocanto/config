@@ -1,0 +1,5 @@
+Host *
+    IgnoreUnknown UseKeychain
+    UseKeychain yes
+    AddKeysToAgent yes
+    IdentityFile /home/ryuk/.ssh/gh_key
